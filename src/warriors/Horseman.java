@@ -5,7 +5,7 @@ import main.Units;
 public class Horseman extends Warrior {
 
 
-    public Horseman (String name) {
-        super(name);
+    public Horseman() {
+        super("Конница", 40, Units.HORSEMAN);
     }
 }

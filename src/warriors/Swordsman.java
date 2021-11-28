@@ -2,9 +2,9 @@ package warriors;
 
 import main.Units;
 
-public class Swordsman extends Warrior{
+public class Swordsman extends Warrior {
 
-    public Swordsman(String name) {
-        super(name);
+    public Swordsman() {
+        super("Мечники", 25, Units.SWORDSMAN);
     }
 }

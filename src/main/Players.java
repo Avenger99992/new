@@ -3,16 +3,16 @@ package main;
 public class Players {
     private int gold;
 
-    Players () {
-        gold=3000;
+    Players() {
+        gold = 3000;
     }
 
-    public int getGold () {
+    public int getGold() {
         return gold;
     }
 
-    public int setGold (int gold) {
-        return this.gold = gold;
+    public void setGold(int gold) {
+        this.gold = gold;
     }
 
 }

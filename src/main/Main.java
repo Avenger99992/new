@@ -7,6 +7,8 @@ public class Main {
         Players player2 = new Players();
         Army playerArmy = Menu.manualCreation(player1);
         Army enemyArmy = Menu.randomCreation(player2);
+
+        Battle.startBattle(playerArmy, enemyArmy);
     }
 
 
